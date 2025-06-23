@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+.halfTxt{
+	width : 50%;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>ZIM Reader Basic</h2>
+
+<span> A basic reader and interface for wikipedia zim files.</span>
+
+<br/> <!lol web design>
+
+<pre id="clock"> </pre> 
+
+<button id = "modeButton" onclick="toggleMode();">Mode</button>
+<span id="modeText">Pared Down</span>
+
+<br/>
+
+<input type="text "id="searchInput" onkeydown="if (event.keyCode==13){sendSearch();}"/>
+<button id = "searchButton" onclick="sendSearch();">Search</button>
+
+<br/> <!lol web design>
+
+<span id="textMain" class="halfTxt"></span>
+
+
+<script src="zimReader.js"> </script>
+
+</body>
+</html>
