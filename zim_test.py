@@ -328,6 +328,7 @@ async def main():
 
     #Fire up the server
     server = await websockets.serve(handle_client, HOST, PORT)
+    webbrowser.open("zim_reader.html") #Open the viewer client in the browser
     await server.wait_closed()
 
 
