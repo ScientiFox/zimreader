@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/b9fc7978-d46d-41a7-8fe3-85275aaa1868)
+
 A basic ZIM reader that's built up as a test utility from some of the background work on REDWOLF.AIC
 
 It interfaces with a ZIM archive (ostensibly an offline archive of wikipedia), and pulls data from it
